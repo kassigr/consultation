@@ -15,7 +15,23 @@ function initSmoothScroll() {
                 behavior: 'smooth',
                 block: 'start'
             });
+
+            // Close mobile nav on link click
+            const nav = document.querySelector('nav');
+            if (nav.classList.contains('active')) {
+                nav.classList.remove('active');
+            }
         });
+    });
+}
+
+// Function to handle the hamburger menu
+function initHamburgerMenu() {
+    const hamburger = document.querySelector('.hamburger-menu');
+    const nav = document.querySelector('nav');
+
+    hamburger.addEventListener('click', () => {
+        nav.classList.toggle('active');
     });
 }
 
@@ -42,5 +58,6 @@ function initScrollAnimations() {
 // Initialize all scripts when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
     initSmoothScroll();
+    initHamburgerMenu();
     initScrollAnimations();
 });
