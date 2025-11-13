@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stress Management Consulting | Your Name</title>
+    <meta name="description" content="Professional stress management consulting services to help you find balance and thrive.">
+    <meta property="og:title" content="Stress Management Consulting | Your Name">
+    <meta property="og:description" content="Professional stress management consulting services to help you find balance and thrive.">
+    <meta property="og:image" content="images/hero-bg.svg">
+    <meta property="og:url" content="https://your-website.com">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#hero" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#blog" class="nav-link">Blog</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="progress-indicator"></div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Find Your Calm in the Chaos</h1>
+                <p>Your partner in navigating stress and achieving work-life harmony.</p>
+                <a href="#contact" class="cta-button">Book a Consultation</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="images/about-photo.svg" alt="A professional headshot of the consultant" class="about-photo">
+                <div class="about-text">
+                    <h3>A Passion for Helping Professionals Thrive</h3>
+                    <p>With over 10 years of experience in high-pressure corporate environments, I understand the toll that chronic stress can take. My mission is to empower individuals and teams with practical, evidence-based strategies to manage stress, prevent burnout, and cultivate a healthier, more fulfilling work life.</p>
+                    <p>My approach is rooted in mindfulness, cognitive-behavioral techniques, and positive psychology. I believe that stress management is not about eliminating stress entirely, but about building resilience and transforming your relationship with it.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <img src="images/icons/individual.svg" alt="Icon for individual coaching">
+                    <h4>Individual Stress Management Coaching</h4>
+                    <p>One-on-one sessions tailored to your unique challenges and goals.</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/icons/balance.svg" alt="Icon for work-life balance">
+                    <h4>Work-Life Balance Consultation</h4>
+                    <p>Strategies to create boundaries, prioritize effectively, and reclaim your personal time.</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/icons/workshop.svg" alt="Icon for team workshops">
+                    <h4>Team Workshops</h4>
+                    <p>Engaging and interactive workshops to boost team resilience and well-being.</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/icons/burnout.svg" alt="Icon for burnout prevention">
+                    <h4>Executive Burnout Prevention</h4>
+                    <p>Specialized coaching for leaders to navigate pressure and lead with resilience.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Latest Insights</h2>
+            <div class="blog-container">
+                <div class="blog-card">
+                    <h4>5 Signs You're Experiencing Workplace Burnout</h4>
+                    <p>Learn to recognize the early warning signs of burnout before it takes a toll.</p>
+                    <span>November 10, 2025</span>
+                    <a href="blog/article-1.html">Read More</a>
+                </div>
+                <div class="blog-card">
+                    <h4>Creating Boundaries in Remote Work</h4>
+                    <p>Practical tips for switching off and protecting your personal time when working from home.</p>
+                    <span>November 5, 2025</span>
+                    <a href="blog/article-2.html">Read More</a>
+                </div>
+                <div class="blog-card">
+                    <h4>The Hidden Cost of Chronic Stress</h4>
+                    <p>Understand the long-term impact of stress on your health, career, and relationships.</p>
+                    <span>October 28, 2025</span>
+                    <a href="blog/article-3.html">Read More</a>
+                </div>
+            </div>
+            <a href="blog/index.html" class="view-all-button">View All Articles</a>
+        </section>
+
+        <section id="testimonials">
+            <h2>Success Stories</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <p>"Working with [Your Name] was a game-changer. I finally have the tools to manage my stress and feel in control of my career again."</p>
+                    <span>- Executive, Tech Industry</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The team workshop was incredibly insightful. Our communication has improved and there's a noticeable reduction in team-wide stress."</p>
+                    <span>- Manager, Creative Agency</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"I was skeptical at first, but the coaching helped me identify the root causes of my burnout and create a sustainable plan for the future."</p>
+                    <span>- Founder, Startup</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <div class="contact-container">
+                <form name="contact" method="POST" data-netlify="true">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone (Optional)</label>
+                    <input type="tel" id="phone" name="phone">
+
+                    <label for="consultation-type">Preferred Consultation</label>
+                    <select id="consultation-type" name="consultation-type">
+                        <option value="individual">Individual Coaching</option>
+                        <option value="work-life">Work-Life Balance</option>
+                        <option value="team">Team Workshop</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Availability: Mon-Fri, 9am-5pm</p>
+                    <p>I typically respond within 24 hours.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Stress Management Consulting. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/animations.js"></script>
+</body>
+</html>
