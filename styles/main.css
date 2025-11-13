@@ -2,13 +2,13 @@
 
 /* --- CSS Custom Properties (Variables) --- */
 :root {
-    --primary-color: #FF4500; /* Red Fire */
+    --primary-color: #FF6347; /* Lighter Red (Tomato) */
     --secondary-color: #6B7280; /* Warm gray */
     --accent-color: #10B981; /* Soft green */
     --background-color: #FAFAFA; /* Off-white */
     --text-color: #1F2937; /* Dark gray */
-    --heading-font: 'Playfair Display', serif;
-    --body-font: 'Inter', sans-serif;
+    --heading-font: 'Roboto', sans-serif;
+    --body-font: 'Roboto', sans-serif;
     --base-spacing: 1rem;
 }
 
@@ -80,9 +80,16 @@ nav {
     justify-content: center;
     min-height: 100vh;
     text-align: center;
-    background-image: url('../images/hero-bg.svg');
+    background-image: url('../james-trenda-S-JEOfIo_eE-unsplash.jpg');
     background-size: cover;
     background-position: center;
+
+}
+
+.hero-content {
+    background-color: black; /* Fully opaque black */
+    padding: 2rem;
+    border-radius: 10px;
 }
 
 .hero-content h1 {
@@ -92,7 +99,7 @@ nav {
 
 .hero-content p {
     font-size: 1.5rem;
-    color: var(--secondary-color);
+    color: #FFFFE0; /* Lighter Yellow */
     margin-bottom: 2rem;
 }
 
