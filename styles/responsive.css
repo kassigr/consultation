@@ -9,6 +9,10 @@
         font-size: 1.8rem;
     }
 
+    section {
+        padding: 60px 1rem;
+    }
+
     .hero-content {
         padding: 1rem;
     }
