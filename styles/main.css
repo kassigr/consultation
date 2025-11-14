@@ -122,22 +122,19 @@ nav {
 .hero-content h1 {
     font-size: 4rem;
     margin-bottom: 0.5rem;
-    background-color: #f0e5d8;
-    padding: 0.5rem 1rem;
-    display: inline-block;
 }
 
 .hero-content p {
     font-size: 1.5rem;
     color: #FFFFE0; /* Lighter Yellow */
     margin-bottom: 2rem;
-    background-color: #f0e5d8;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
     padding: 0.5rem 1rem;
     display: inline-block;
 }
 
 .cta-button {
-    background-color: #d0a85a; /* New button color */
+    background-color: var(--accent-color); /* Reverted to accent color */
     color: white;
     padding: 1rem 2rem;
     text-decoration: none;
