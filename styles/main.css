@@ -123,6 +123,7 @@ nav {
 .hero-content h1 {
     font-size: 4rem;
     margin-bottom: 0.5rem;
+    color: white;
 }
 
 .hero-content p {
@@ -134,7 +135,7 @@ nav {
 }
 
 .cta-button {
-    background-color: var(--accent-color); /* Reverted to accent color */
+    background-color: #d0a85a; /* New button color */
     color: white;
     padding: 1rem 2rem;
     text-decoration: none;
