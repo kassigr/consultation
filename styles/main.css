@@ -231,6 +231,7 @@ nav {
 
 .service-card .icon {
     margin-bottom: 1.2rem;
+    flex-shrink: 0;
 }
 
 .service-card h4 {
@@ -239,6 +240,10 @@ nav {
     color: var(--text-color);
     text-align: center;
     line-height: 1.4;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .service-card p {
