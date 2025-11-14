@@ -260,10 +260,9 @@ nav {
 
 /* --- Contact Section --- */
 .contact-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 3rem;
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 3rem;
     border-radius: 10px;
 }
@@ -271,6 +270,8 @@ nav {
 form {
     display: flex;
     flex-direction: column;
+    max-width: 600px; /* Set a max-width for the form */
+    width: 100%;
 }
 
 form label {
