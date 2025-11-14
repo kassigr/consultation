@@ -107,14 +107,11 @@ nav {
     justify-content: center;
     min-height: 100vh;
     text-align: center;
-    background-image: url('../james-trenda-S-JEOfIo_eE-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
 
 }
 
 .hero-content {
-    background-image: url('../images/hero-bg.svg'); /* Leopard print background */
+    background-image: url('../james-trenda-S-JEOfIo_eE-unsplash.jpg');
     background-size: cover;
     background-position: center;
     padding: 2rem;
