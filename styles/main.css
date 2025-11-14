@@ -158,6 +158,8 @@ nav {
     display: flex;
     align-items: center;
     gap: 2rem;
+    max-width: 1000px; /* Set a max-width */
+    margin: 0 auto; /* Center horizontally */
 }
 
 .about-photo {
