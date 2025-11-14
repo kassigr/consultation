@@ -2,13 +2,13 @@
 
 /* --- CSS Custom Properties (Variables) --- */
 :root {
-    --primary-color: #FF6347; /* Lighter Red (Tomato) */
+    --primary-color: #d78a6c; /* New primary color */
     --secondary-color: #6B7280; /* Warm gray */
     --accent-color: #10B981; /* Soft green */
     --background-color: #FAFAFA; /* Off-white */
     --text-color: #1F2937; /* Dark gray */
-    --heading-font: 'Lato', sans-serif;
-    --body-font: 'Lato', sans-serif;
+    --heading-font: 'Nunito', sans-serif;
+    --body-font: 'Nunito', sans-serif;
     --base-spacing: 1rem;
 }
 
@@ -114,9 +114,12 @@ nav {
 }
 
 .hero-content {
-    background-color: black; /* Fully opaque black */
+    background-image: url('../images/hero-bg.svg'); /* Leopard print background */
+    background-size: cover;
+    background-position: center;
     padding: 2rem;
     border-radius: 10px;
+    color: white; /* Ensure text is visible */
 }
 
 .hero-content h1 {
@@ -131,7 +134,7 @@ nav {
 }
 
 .cta-button {
-    background-color: var(--accent-color);
+    background-color: #d0a85a; /* New button color */
     color: white;
     padding: 1rem 2rem;
     text-decoration: none;
