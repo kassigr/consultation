@@ -105,7 +105,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 80vh; /* Reduced height */
+    min-height: 40vh; /* Shortened height */
     text-align: center;
 }
 
