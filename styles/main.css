@@ -261,7 +261,7 @@ form input, form textarea, form select {
 }
 
 form button {
-    background-color: var(--accent-color);
+    background-color: #d78a6c; /* New button color */
     color: white;
     padding: 1rem;
     border: none;
