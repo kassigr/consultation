@@ -118,6 +118,8 @@ nav {
     border-radius: 10px;
     color: white; /* Ensure text is visible */
     text-align: center;
+    width: 1200px; /* Set fixed width */
+    max-width: 100%; /* Ensure responsiveness */
 }
 
 .hero-content h1 {
