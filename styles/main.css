@@ -43,7 +43,7 @@ p {
 }
 
 section {
-    padding: 80px var(--base-spacing);
+    padding: 60px var(--base-spacing);
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -112,6 +112,7 @@ nav {
     background-size: cover;
     background-position: center;
     padding: 2rem;
+    padding-top: 5rem; /* Added top padding */
     border-radius: 10px;
     color: white; /* Ensure text is visible */
     text-align: center;
