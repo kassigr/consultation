@@ -35,6 +35,7 @@ h1, h2, h3, h4 {
 h2 {
     text-align: center;
     font-size: 2.5rem;
+    margin-top: 0;
 }
 
 p {
@@ -43,7 +44,7 @@ p {
 }
 
 section {
-    padding: 60px var(--base-spacing);
+    padding: 40px var(--base-spacing);
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -104,6 +105,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 60vh; /* Increased height */
     text-align: center;
 }
 
