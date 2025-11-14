@@ -206,6 +206,14 @@ nav {
     padding: 2rem;
     border-radius: 10px;
     font-style: italic;
+    text-align: center;
+}
+
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 .testimonial-card span {
