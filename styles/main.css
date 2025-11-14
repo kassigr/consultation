@@ -21,6 +21,12 @@ body {
     line-height: 1.6;
 }
 
+.pattern-background {
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(255, 99, 71, 0.1) 0%, transparent 50%), /* Using lighter red */
+    radial-gradient(circle at 80% 80%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
+}
+
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
     color: var(--primary-color);
