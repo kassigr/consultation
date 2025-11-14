@@ -21,6 +21,10 @@ body {
     line-height: 1.6;
 }
 
+main {
+    background-color: #f3e7dd; /* New light pink background */
+}
+
 .pattern-background {
   background-image: 
     radial-gradient(circle at 20% 50%, rgba(255, 99, 71, 0.1) 0%, transparent 50%), /* Using lighter red */
@@ -135,7 +139,7 @@ nav {
 .hero-content p {
     font-size: 1.5rem;
     color: #FFFFE0; /* Lighter Yellow */
-    margin-bottom: 2rem;
+    margin-bottom: 1rem; /* Reduced margin */
     background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
     padding: 0.5rem 1rem;
 }
@@ -287,6 +291,7 @@ form input, form textarea, form select {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    font-family: var(--body-font); /* Apply body font */
 }
 
 form button {
